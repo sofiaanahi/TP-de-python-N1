@@ -27,7 +27,7 @@ def ordenar_palindrome(n):
 
     return ''.join(palidromo)
 
-
+# caso de prueba
 assert ordenar_palindrome("aabbc") == "abcba", "Error en el caso de prueba"
 
 print('todos los casos de pruba han pasado correctamente.')  
