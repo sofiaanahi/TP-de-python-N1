@@ -18,11 +18,10 @@ def espiral_num(fila, columna):
             return columna**2 + 1 - fila
         
 # se muestra el resultado 
-
-print(' el valor de la posicion es: ',espiral_num(2,2))
     
 assert espiral_num(2, 2) == 3, "Error en el caso de prueba"
-    
+   
+print('todos los casos de pruba han pasado correctamente.') 
     
     
     
